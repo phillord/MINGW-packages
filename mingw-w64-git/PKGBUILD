@@ -32,8 +32,7 @@ prepare() {
 build() {
   export PYTHON_PATH='/usr/bin/python'
   cd "${srcdir}/${_realname}-${pkgver}"
-  make prefix=${MINGW_PREFIX}/usr profile
-  make prefix=${MINGW_PREFIX}/usr PROFILE=BUILD man all
+  make prefix=${MINGW_PREFIX}/usr man all
 }
 
 package() {
