@@ -17,8 +17,7 @@ makedepends=(
 )
 #install=git.install
 
-##source=("${_realname}-${pkgver}.tar.gz"::https://github.com/git/git/archive/v${pkgver}.tar.gz)
-source=("${_realname}-${pkgver}.tar.gz"::https://github.com/git-for-windows/git/archive/v${pkgver}.windows.2.tar.gz)
+source=("${_realname}-${pkgver}.tar.gz"::https://github.com/git/git/archive/v${pkgver}.tar.gz)
 sha256sums=('8db4edd1a0a74ebf4b78aed3f9e25c8f2a7db3c00b1aaee94d1e9834fae24e61')
 
 
